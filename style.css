@@ -189,32 +189,36 @@ body{
   .nav2{
     display:none;
   }
-  .card{
-    background-color:rgb(17, 66, 54);
-    height:auto;
-    width:90%;
-    margin-top: 50px;
-    border-radius: 5px;
-    display: block;
-    padding:10px;
+  .card {
+  background-color: rgb(17, 66, 54);
+  height: auto;
+  width: 90%;          /* screen ka 90% lega */
+  margin: 20px auto;   /* center ho jayega left-right */
+  border-radius: 5px;
+  display: block;      /* flex ki zarurat nahi mobile me */
+  padding: 10px;
 }
-.cardimg{
-    height:100px;
-    width:250px;
-    margin-top:50px;
-    margin-left:100px;
-    
+
+.cardimg {
+  width: 100%;         /* image pura card ke andar fit */
+  height: auto;        /* height apne aap adjust */
+  margin: 0;           /* center karne ke liye margin remove */
+  object-fit: cover;   /* aspect ratio maintain */
+  border-radius: 5px 5px 0 0;
 }
-.sc{
-    color:white;
-     margin:10px;
-     font-size: 25px;
-     margin-top:30px;
+
+.sc {
+  color: white;
+  margin: 10px;
+  font-size: 20px;     /* thoda chhota mobile ke liye */
+  text-align: center;
 }
-.sc1{
-    color:white; 
-    margin-left:10px;
-    font-size: 18px;
+
+.sc1 {
+  color: white; 
+  margin: 5px 10px;
+  font-size: 16px;
+  text-align: center;
 }
  .productcard {
     display: grid;
@@ -232,3 +236,4 @@ body{
 }
 
 }
+
