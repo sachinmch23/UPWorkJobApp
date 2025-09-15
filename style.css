@@ -194,16 +194,13 @@ body{
     height:auto;
     width:90%;
     margin-top: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
     border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-   
+    display: block;
+    padding:10px;
 }
 .cardimg{
     height:100px;
-    width:250;
+    width:250px;
     margin-top:50px;
     margin-left:100px;
     
