@@ -75,7 +75,6 @@ body{
     height:150px;
     width:300px;
     margin:30px;
-    object-fit: cover;
 }
 .productcard{
     display:flex;
@@ -193,17 +192,21 @@ body{
   .card{
     background-color:rgb(17, 66, 54);
     height:auto;
-    width:100%;
+    width:90%;
     margin-top: 50px;
     margin-left: 10px;
-      margin-right:10px;
+    margin-right: 10px;
     border-radius: 5px;
     display: flex;
+    flex-direction: column;
+   
 }
 .cardimg{
-    height:80px;
-    width:150px;
+    height:100px;
+    width:250;
     margin-top:50px;
+    margin-left:100px;
+    
 }
 .sc{
     color:white;
@@ -232,6 +235,3 @@ body{
 }
 
 }
-
-
-
