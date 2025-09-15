@@ -225,7 +225,7 @@ body{
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     margin-top: 50px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 .job-cities{
     display:grid;
@@ -236,5 +236,6 @@ body{
 }
 
 }
+
 
 
