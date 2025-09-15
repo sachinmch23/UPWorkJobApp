@@ -75,6 +75,7 @@ body{
     height:150px;
     width:300px;
     margin:30px;
+    object-fit: cover;
 }
 .productcard{
     display:flex;
@@ -231,5 +232,6 @@ body{
 }
 
 }
+
 
 
